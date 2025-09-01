@@ -1,11 +1,16 @@
 <nav class="p-5 d-flex justify-content-between">
-  <app-logo></app-logo>
+  <a routerLink="/">
+    <app-logo></app-logo>
+  </a>
+  
   <div class="d-flex gap-5">
     <a class="text-decoration-none text-light" routerLink="/">Home</a>
     <a class="text-decoration-none text-light" routerLink="/about">About</a>
     <a class="text-decoration-none text-light" routerLink="/contact">Contact</a>
   </div>
+
 </nav>
+
 <main class="p-5 text-light d-flex align-items-center">
   <router-outlet></router-outlet>
 </main>
