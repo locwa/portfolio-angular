@@ -1,0 +1,9 @@
+nav{
+    height: 5rem;
+    position: fixed;
+    width: 100vw;
+}
+main{
+    height: 100vh;
+    background-color: #121212 !important;
+}
